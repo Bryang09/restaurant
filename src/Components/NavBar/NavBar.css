@@ -1,0 +1,159 @@
+.NavBar {
+  display: flex;
+  min-width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 2.5vh;
+  background: rgb(44, 34, 34);
+  font-weight: 700;
+  z-index: 10;
+}
+
+.NavBar a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+
+.NavBar h4 {
+  min-width: 50%;
+  text-align: center;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+
+.Navigation {
+  min-width: 50%;
+  display: flex;
+}
+.Navigation ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.Navigation ul li {
+  margin: 0 2em;
+  text-transform: uppercase;
+  opacity: 0.8;
+  font-weight: 400;
+}
+
+.Navigation ul li:hover {
+  opacity: 1;
+}
+
+.MenuBtn {
+  position: absolute;
+  z-index: 3;
+  right: 35px;
+  top: 35px;
+  cursor: pointer;
+  opacity: 0;
+}
+.btn {
+  width: 28px;
+  height: 3px;
+  margin: 0 0 5px 0;
+  background: #fff;
+  opacity: 0;
+}
+
+.Display-Menu {
+  transform: rotate(90deg);
+  position: relative;
+  /* transition-delay: 0.1s; */
+  z-index: 10;
+  /* transform: ; */
+}
+
+.Line1 {
+  transform: rotate(45deg);
+  background: #e95a4f;
+  margin-right: 2px;
+}
+
+.Line2 {
+  background: #f4cf3a;
+}
+.Line3 {
+  background: #71ac4a;
+}
+
+.Menu-Slide {
+  transform: translateX(100vw);
+  transition-duration: 1s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  opacity: 0.95;
+}
+
+.Menu-Slideout {
+  transform: translateX(-100vw);
+}
+
+@media only screen and (max-width: 992px) {
+  .NavBar h4 {
+    font-size: 26px;
+    min-width: 40%;
+  }
+  .Navigation {
+    min-width: 60%;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .NavBar {
+    display: flex;
+    flex-direction: column;
+    transform: translateX(-100vw);
+  }
+  .NavBar h4 {
+    font-size: 26px;
+    min-width: 100%;
+  }
+  .Navigation {
+    min-width: 100%;
+    font-size: 15px;
+  }
+  .Navigation ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding-left: 0;
+  }
+  .Navigation ul li {
+    text-align: center;
+    margin: 3vh 0;
+  }
+
+  .NavBtn {
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    opacity: 0.8;
+    padding: 0.3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: #e42424;
+    border: 1px solid #e42424;
+    border-radius: 5px; */
+  }
+
+  .NavBtn:hover {
+    cursor: pointer;
+    opacity: 1;
+  }
+  .btn {
+    opacity: 0.8;
+  }
+}

@@ -1,0 +1,79 @@
+.Menu {
+  min-height: 100vh;
+}
+
+.Home-Menu {
+  height: 80vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+      no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.829);
+}
+
+.Home-Menu h1 {
+  font-size: 5em;
+  margin-bottom: 2vh;
+}
+
+.Home-Menu h3 {
+  font-weight: 400;
+  font-size: 2em;
+  max-width: 85vw;
+  text-align: center;
+}
+
+.menuSection {
+  height: 100%;
+}
+
+.Text {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #3b444d;
+  color: #fff;
+}
+
+.Text p {
+  width: 80%;
+}
+
+.menuSection hr {
+  width: 50%;
+}
+
+.Pasta {
+  background: url("https://images.pexels.com/photos/546945/pexels-photo-546945.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+    no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 40vh;
+}
+
+.Pizza {
+  background: url("https://images.pexels.com/photos/1049626/pexels-photo-1049626.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+    no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 40vh;
+}
+
+.Bar {
+  background: url("https://images.pexels.com/photos/696218/pexels-photo-696218.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+    no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 40vh;
+}

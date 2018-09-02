@@ -1,0 +1,144 @@
+.Sub1 {
+  height: 100%;
+}
+
+.White-Text {
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.White-Text h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 2em;
+  text-transform: capitalize;
+  /* line-height: 20vh; */
+}
+
+.Main hr {
+  max-width: 50%;
+  min-width: 50%;
+  margin-top: 20px;
+  border: 1px solid #fff;
+}
+
+.White-Text p {
+  max-width: 80vw;
+  text-align: center;
+  margin: 10px auto;
+}
+
+#vertical {
+  border: 0.5px dashed #e42424;
+  max-width: 3vw;
+  min-width: 3vw;
+  transform: rotate(90deg);
+  margin: 28px 0;
+}
+
+.Home-Button {
+  border: 1px solid #e42424;
+  width: 15%;
+  text-align: center;
+  width: 35%;
+  margin: 5vh auto 0 auto;
+}
+
+.Home-Button a {
+  display: block;
+  line-height: 45px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.Home-Button a:hover {
+  cursor: pointer;
+  background: #e42424;
+  color: #fff;
+}
+
+.Section1 {
+  height: 70vh;
+  min-width: 99vw;
+  background: url("https://images.pexels.com/photos/357737/pexels-photo-357737.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
+    no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.Box1 {
+  width: 35vw;
+  margin: 0 auto;
+  height: 100%;
+  background: #3b444d;
+  /* transform: translateY(-5vh); */
+  transform: translate(-13vw, -5vh);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.829);
+}
+
+.Box1 p {
+  max-width: 90%;
+  line-height: 44px;
+}
+
+.Box-Button:hover {
+  opacity: 0.8;
+}
+
+.White-Box {
+  width: 20vw;
+}
+
+.Black-Text a {
+  color: #000;
+}
+@media only screen and (max-width: 1200px) {
+  .Box1 {
+    width: 45vw;
+    transform: translate(-16vw, -3vh);
+  }
+}
+@media only screen and (max-width: 992px) {
+  .Box1 {
+    width: 55vw;
+    transform: translate(-16vw, -4vh);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .Section1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Box1 {
+    width: 100%;
+    transform: none;
+  }
+  .White-Text {
+    height: 65vh;
+    background: #71ac4a;
+    opacity: 0.8;
+    color: #fff;
+  }
+  .White-Text h1 {
+    width: 90vw;
+  }
+  .White-Box {
+    border: 1px solid #fff;
+  }
+
+  .White-Box:hover {
+    border: 1px solid #e42424;
+  }
+  #vertical {
+    border: 1px dashed #fff;
+  }
+}

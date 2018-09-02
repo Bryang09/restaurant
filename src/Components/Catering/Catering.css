@@ -1,0 +1,116 @@
+.Catering {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.pexels.com/photos/1093015/pexels-photo-1093015.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+      no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Form {
+  width: 30vw;
+  height: 45vh;
+  background: rgba(44, 34, 34, 0.9);
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.Form h2 {
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 0;
+  font-size: 1.4em;
+}
+
+.Form form {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.Form form input[type="text"],
+.Form form input[type="textarea"] {
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+  line-height: 2;
+}
+
+.Form form input[type="text"]:focus {
+  border: 2px solid rgb(233, 90, 79);
+  outline: none;
+}
+
+.input {
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.input input,
+textarea {
+  margin: 3vh 0 0 0;
+}
+
+textarea {
+  text-align: center;
+}
+
+#formButton {
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  width: 30%;
+  margin: 3vh auto;
+  text-align: center;
+  line-height: 5vh;
+  font-size: 1.2em;
+  border-radius: 2px;
+}
+
+#formButton:hover {
+  color: rgba(255, 255, 255, 0.8);
+  background: rgb(233, 90, 79);
+  border: 1px solid rgb(233, 90, 79);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1200px) {
+  .Form {
+    width: 47vw;
+    height: 50vh;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .input {
+    width: 65%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .Form {
+    width: 50vw;
+    height: 55vh;
+  }
+  #formButton {
+    width: 50%;
+  }
+  .Form h2 {
+    width: 90%;
+    margin: 2vh auto 0 auto;
+  }
+
+  .input {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Form {
+    width: 70vw;
+  }
+}

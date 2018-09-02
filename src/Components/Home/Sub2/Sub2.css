@@ -1,0 +1,63 @@
+.Sub2 {
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("https://images.pexels.com/photos/256318/pexels-photo-256318.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
+      no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  width: 99vw;
+}
+
+.Section2 {
+  width: 99vw;
+  height: 70vh;
+}
+.Box2 {
+  width: 35vw;
+  margin: 0 auto;
+  height: 100%;
+  transform: translate(12vw, -12vh);
+  background: #f4cf3a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* box-shadow: 1px 1px 8px #000; */
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.Box2 p,
+.Box3 p {
+  max-width: 90%;
+  line-height: 44px;
+  margin: 0 auto;
+}
+
+.Text2 {
+  background: #3b444d;
+}
+
+@media only screen and (max-width: 1200px) {
+  .Box2 {
+    width: 45vw;
+    transform: translate(19vw, -9vh);
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .Box2 {
+    width: 55vw;
+    transform: translate(19vw, -9vh);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .Box2 {
+    width: 100%;
+    transform: none;
+  }
+}

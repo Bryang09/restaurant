@@ -1,0 +1,85 @@
+.Sub3 {
+  height: 100%;
+}
+
+.Section3 {
+  /* background: url("https://images.pexels.com/photos/2249/vegetables-italian-pizza-restaurant.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+    no-repeat; */
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: -20vh;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Box3 {
+  width: 70vw;
+  margin: 0 auto;
+  height: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* box-shadow: 1px 1px 8px #000; */
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  background: #000;
+  transform: translate(0vw, 23vh);
+}
+
+.Side1 {
+  background: #e95a4f;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Side2 {
+  background: url("https://images.pexels.com/photos/8500/food-dinner-pasta-spaghetti-8500.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+    no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 60%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .Box3 {
+    width: 80vw;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .Box3 {
+    width: 85vw;
+  }
+  .Side1,
+  .Side2 {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .Box3 {
+    width: 100%;
+    transform: none;
+  }
+  .Section3 {
+    margin-top: 0;
+    height: 100%;
+  }
+  .Side2 {
+    display: none;
+  }
+  .Side1 {
+    width: 100%;
+    padding-bottom: 5vh;
+  }
+}

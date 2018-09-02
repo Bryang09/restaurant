@@ -1,0 +1,118 @@
+.MenuSub {
+  height: 50vh;
+  display: flex;
+}
+
+.SideBar {
+  width: 20vw;
+  background: #3b444ded;
+  height: 100%;
+}
+
+.SideBar ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: auto;
+  padding: 0;
+  height: 100%;
+}
+
+.SideBar ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.2em 0;
+  color: rgba(255, 255, 255, 0.892);
+  font-size: 1.3em;
+}
+
+.SideBar ul li:hover {
+  cursor: pointer;
+}
+
+.MenuMain {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  text-align: center;
+  background: rgb(236, 234, 234);
+}
+
+.dishes {
+  width: 60vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.dishes h3 {
+  width: 50%;
+  letter-spacing: 2px;
+  line-height: 4em;
+  color: rgb(233, 90, 79);
+}
+
+.dishes h6 {
+  margin-top: 0;
+}
+
+.dishes h6 i {
+  text-align: center;
+}
+
+@media only screen and (max-width: 1200px) {
+  .SideBar {
+    width: 35vw;
+  }
+
+  .dishes {
+    width: 65vw;
+    font-size: 0.8em;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .SideBar {
+    width: 30vw;
+  }
+
+  .dishes {
+    width: 65vw;
+    font-size: 0.8em;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .dishes h3 {
+    width: 100%;
+    font-size: 1em;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .SideBar ul li {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .dishes {
+    width: 100%;
+  }
+  .dishes h3 {
+    font-size: 0.9em;
+  }
+
+  .SideBar {
+    width: 25vw;
+  }
+
+  .SideBar ul li {
+    font-size: 0.8em;
+  }
+}

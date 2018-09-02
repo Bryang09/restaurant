@@ -1,0 +1,42 @@
+.Hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.pexels.com/photos/887827/pexels-photo-887827.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260")
+      no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  color: rgba(255, 255, 255, 0.89);
+}
+
+.Hero h2 {
+  margin: 0;
+  font-size: 5em;
+  text-align: center;
+}
+
+.Hero hr {
+  width: 50%;
+}
+
+.Hero p {
+  font-size: 1.5em;
+  width: 80%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .Hero {
+    background-position: 70%;
+  }
+  .Hero h2 {
+    font-size: 4em;
+  }
+  .Hero p {
+    font-size: 1.25em;
+  }
+}
