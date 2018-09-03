@@ -37,7 +37,7 @@ const Sub2 = () => {
                 temporibus iste ut.
               </p>
 
-              <h3 className="Home-Button Box-Button White-Box">
+              <h3 className="Home-Button Box-Button White-Box" id="read">
                 <a>Read More</a>
               </h3>
             </div>

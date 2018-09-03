@@ -41,6 +41,14 @@
   background: #3b444d;
 }
 
+#read {
+  border: 1px solid #fff;
+}
+
+#read:hover {
+  border: 1px solid #e42424;
+}
+
 @media only screen and (max-width: 1200px) {
   .Box2 {
     width: 45vw;
@@ -57,7 +65,7 @@
 
 @media only screen and (max-width: 768px) {
   .Box2 {
-    width: 100%;
+    width: 100vw;
     transform: none;
   }
 }

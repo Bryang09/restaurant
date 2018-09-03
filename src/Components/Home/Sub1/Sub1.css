@@ -67,6 +67,7 @@
     no-repeat;
   background-position: center center;
   background-size: cover;
+  text-align: center;
 }
 
 .Box1 {
@@ -131,8 +132,13 @@
   .White-Text h1 {
     width: 90vw;
   }
+
+  .Black-Text a {
+    color: #fff;
+  }
   .White-Box {
     border: 1px solid #fff;
+    width: 37vw;
   }
 
   .White-Box:hover {

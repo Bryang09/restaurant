@@ -160,25 +160,27 @@ class MenuSub extends Component {
           this.state.dish1 === "Bucatini Puttanesca" ||
           this.state.dish1 === "Pepperoni" ||
           this.state.dish1 === "Minestrone" ? (
-            <div className="dishes">
-              <h3>
-                {this.state.dish1} ..... $ {this.state.dish1Price}
-              </h3>
-              <h3>
-                {this.state.dish2} ..... $ {this.state.dish2Price}
-              </h3>
-              <h3>
-                {this.state.dish3} ..... $ {this.state.dish3Price}
-              </h3>
-              <h3>
-                {this.state.dish4} ..... $ {this.state.dish4Price}
-              </h3>
-              <h3>
-                {this.state.dish5} ..... $ {this.state.dish5Price}
-              </h3>
-              <h3>
-                {this.state.dish6} ..... $ {this.state.dish6Price}
-              </h3>
+            <div className="drinks">
+              <div className="dishes">
+                <h3>
+                  {this.state.dish1} ..... $ {this.state.dish1Price}
+                </h3>
+                <h3>
+                  {this.state.dish2} ..... $ {this.state.dish2Price}
+                </h3>
+                <h3>
+                  {this.state.dish3} ..... $ {this.state.dish3Price}
+                </h3>
+                <h3>
+                  {this.state.dish4} ..... $ {this.state.dish4Price}
+                </h3>
+                <h3>
+                  {this.state.dish5} ..... $ {this.state.dish5Price}
+                </h3>
+                <h3>
+                  {this.state.dish6} ..... $ {this.state.dish6Price}
+                </h3>
+              </div>
             </div>
           ) : null}
 

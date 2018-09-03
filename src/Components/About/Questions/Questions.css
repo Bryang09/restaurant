@@ -63,7 +63,7 @@
   line-height: 8vh;
 }
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
   .questionColumn ul li {
     margin: 1em 0;
     font-size: 0.9em;
@@ -71,9 +71,9 @@
   .questions p {
     font-size: 0.9em;
   }
-}
+} */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .questionColumn {
     width: 100vw;
     display: flex;
