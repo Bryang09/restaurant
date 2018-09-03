@@ -63,16 +63,6 @@
   line-height: 8vh;
 }
 
-/* @media only screen and (max-width: 768px) {
-  .questionColumn ul li {
-    margin: 1em 0;
-    font-size: 0.9em;
-  }
-  .questions p {
-    font-size: 0.9em;
-  }
-} */
-
 @media only screen and (max-width: 768px) {
   .questionColumn {
     width: 100vw;
@@ -92,6 +82,7 @@
     background: rgb(233, 90, 79);
     width: 100%;
     padding-left: 0;
+    padding-top: 2vh;
   }
 
   .questionContainer ul li {
@@ -99,6 +90,7 @@
     opacity: 0.8;
     font-size: 1em;
     transform: translateY(-2vh);
+    margin: 1em 0;
   }
 
   .questionContainer ul li:hover {
